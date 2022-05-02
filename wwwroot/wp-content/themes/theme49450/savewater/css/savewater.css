@@ -12,7 +12,7 @@
 #main {
     width: 400px;
     height: 500px;
-    background: #99dd00;
+    background: url('../image/b3.png');
     border: 2px solid gray;
     margin: 0 auto;
     position: relative;
@@ -39,7 +39,7 @@
 }
 
 .black {
-    background: url('../image/123.png');
+    background: url('../image/1234.png');
 }
 
 .start {
