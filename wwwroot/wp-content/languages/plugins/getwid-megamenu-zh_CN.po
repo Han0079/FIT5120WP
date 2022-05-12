@@ -1,0 +1,32 @@
+# Translation of Plugins - WordPress Mega Menu Block - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - WordPress Mega Menu Block - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-22 09:13:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - WordPress Mega Menu Block - Stable (latest release)\n"
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/wordpress-mega-menu-block/"
+msgstr "https://motopress.com/products/wordpress-mega-menu-block/"
+
+#: includes/blocks/MegaMenu.php:48
+msgid "Menu"
+msgstr "菜单"
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr "https://motopress.com/"
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr "MotoPress"
+
+#. Description of the plugin
+msgid "Build better navigation menus with the WordPress mega menu blocks."
+msgstr "使用 WordPress mega menu blocks 构建更好的导航菜单。"

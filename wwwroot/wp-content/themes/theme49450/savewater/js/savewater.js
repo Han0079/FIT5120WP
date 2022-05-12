@@ -90,7 +90,7 @@ function over(ev){
     console.log('End Game')
     status = 0;
     clearInterval(timer);
-    var a=alert("Game over, Your score is "+score+" !!!");  
+    var a=alert("Game over, Your score is "+score+" !!! \n\n Don't let the last drop of 'water' on earth become a tear.");  
     if(a){  
      delchild();
          }
