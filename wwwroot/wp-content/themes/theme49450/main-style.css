@@ -110,16 +110,16 @@ h1, h2, h3, h4, h5, h6 { text-transform:uppercase; }
 .pagination ul { box-shadow:none; }
 .home .header { padding-bottom:0; }
 .header {
-	padding-top:58px;
+	padding-top:20px;
 	border:none;
-	padding-bottom:36px;
-	background:url(images/header.jpg) top left repeat;
+	padding-bottom:18px;
+	background:#14a9bd top left repeat;
 }
-.header a { color:#7a7c82; }
+.header a { color:#14a9bd; }
 .header a:hover { color:#fd9029; }
 .select-menu {
 	background:#14a9bd;
-	color:#000;
+	color:#14a9bd;
 	border-radius:0;
 	font-size:13px;
 }
@@ -128,16 +128,16 @@ h1, h2, h3, h4, h5, h6 { text-transform:uppercase; }
 	display:block !important;
 	width:800%;
 	height:100%;
-	background:#14a9bd url(images/nav-top.jpg) top left repeat-x;
-	position:absolute;
-	left:-400%;
+	background:#14a9bd;
+	position:right;
+	right:-400%;
 	top:0;
 }
 @media (max-width: 767px) {
 	.nav-top:before { display:none !important; }
 }
 .nav-top {
-	background:#17181c;
+	background:#14a9bd;
 	margin-top:35px;
 	position:relative;
 }
@@ -187,14 +187,14 @@ h1, h2, h3, h4, h5, h6 { text-transform:uppercase; }
 	border-radius:0;
 }
 .nav__primary ul.sf-menu .sub-menu {
-	background:#fafafc;
+	background:#14a9bd;
 	padding:0px;
-	width:100%;
-	min-width:131px;
+	width:300px;
+	min-width:200px;
 	text-align:left;
-	border-top:1px solid #d4d4d4;
-	border-left:1px solid #d4d4d4;
-	border-right:1px solid #d4d4d4;
+	border-top:1px solid #14a9bd;
+	border-left:1px solid #14a9bd;
+	border-right:1px solid #14a9bd;
 }
 .nav__primary ul.sf-menu .sub-menu li {
 	padding:0;
@@ -203,12 +203,12 @@ h1, h2, h3, h4, h5, h6 { text-transform:uppercase; }
 	background:none !important;
 	border:none;
 	min-width:129px;
-	border-bottom:1px solid #d4d4d4;
+	border-bottom:1px solid #14a9bd;
 	padding:10px 0px;
 }
 .nav__primary ul.sf-menu .sub-menu li a {
 	font:400 16px/1.2em Open Sans;
-	color:#5f6166;
+	color:#ffffff;
 	border:none !important;
 	background:none;
 	padding:0;
@@ -369,7 +369,10 @@ article figure.featured-thumbnail {
 	color:#ffffff;
 }
 .slider { overflow:visible; }
-.slider .container { width:100%; }
+.slider .container {
+	height:80%;
+	width:100%;
+}
 .slider .camera_bar {
 	height:14px;
 	top:auto;

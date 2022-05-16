@@ -17,13 +17,6 @@ body{
 		@media(max-width: 767px){padding:0;}
 	}
 }
-/*.container{
-display: grid;
-grid-template-areas: 
-    "sidebar1 content1";
-grid-template-columns: 1fr 3fr;
-grid-gap: 20px;
-}*/
 .sub-menu{
 	a .sf-sub-indicator{
 		right: -42px;
@@ -132,11 +125,19 @@ h1,h2,h3,h4,h5,h6{
 		padding-bottom: 0;
 	}
 }
+.container{
+    display: grid;
+    grid-template-areas: 
+        "sidebar1 content1";
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+}
 .header{
 	padding-top: 20px;
 	border: none;
 	padding-bottom: 18px;
 	background: #14a9bd top left repeat;
+    grid-area: sidebar1;
 	a {
 		color: #14a9bd;
 		&:hover {
@@ -148,6 +149,7 @@ h1,h2,h3,h4,h5,h6{
 		color: #14a9bd;
 		border-radius: 0;
 		font-size: 13px;
+        grid-area: content1;
 }
 .nav-top:before{
 		content: "";
@@ -170,9 +172,8 @@ h1,h2,h3,h4,h5,h6{
 .nav__primary{
 		background: #14a9bd url(images/nav-top.jpg) top left repeat-x;
 		text-align: center;
-        position: relative;
+		position: relative;
 		overflow: visible;
-        //grid-area: content1;
 		margin: 0;
 		padding-bottom: 0px;
 		border-left: 1px solid #51bfce;
@@ -297,7 +298,6 @@ h1,h2,h3,h4,h5,h6{
 ---------------------------------------- */
 .logo.pull-left{
 	width: auto !important;
-    //grid-area: sidebar1;
 	@media(max-width: 767px){float:none;text-align: center;}
 	a:hover{
 		color: inherit;
