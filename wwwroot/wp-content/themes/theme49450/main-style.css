@@ -108,11 +108,11 @@ h1, h2, h3, h4, h5, h6 { text-transform:uppercase; }
 	.btn:hover, .pagination li a:hover, .pagination li.active a, .comment-reply-link:hover, .pager li a:hover, body .pagination ul li a:hover, .pagination li.active span { padding:5px 8px 6px; }
 }
 .pagination ul { box-shadow:none; }
-.home .header { padding-bottom:0; }
 .header {
-	padding-top:20px;
 	border:none;
-	padding-bottom:18px;
+	padding-bottom:15px;
+	width:100%;
+	display:block;
 	background:#14a9bd top left repeat;
 }
 .header a { color:#14a9bd; }
@@ -125,9 +125,7 @@ h1, h2, h3, h4, h5, h6 { text-transform:uppercase; }
 }
 .nav-top:before {
 	content:"";
-	display:block !important;
 	width:800%;
-	height:100%;
 	background:#14a9bd;
 	position:right;
 	right:-400%;
@@ -138,7 +136,6 @@ h1, h2, h3, h4, h5, h6 { text-transform:uppercase; }
 }
 .nav-top {
 	background:#14a9bd;
-	margin-top:35px;
 	position:relative;
 }
 @media (max-width: 767px) {
@@ -149,7 +146,6 @@ h1, h2, h3, h4, h5, h6 { text-transform:uppercase; }
 	}
 }
 .nav__primary {
-	background:#14a9bd url(images/nav-top.jpg) top left repeat-x;
 	text-align:center;
 	position:relative;
 	overflow:visible;
@@ -264,12 +260,15 @@ div[id^="meta"] li a { text-decoration:none; }
 @media (max-width: 767px) {
 	.header-sidebar { text-align:center; }
 }
-.logo.pull-left { width:auto !important; }
-@media (max-width: 767px) {
-	.logo.pull-left {
-		float:none;
-		text-align:center;
-	}
+.logo.pull-left {
+	height:80px;
+	display:block;
+}
+.logo.pull-left float: left
+    
+	@media(max-width: 767px) {
+	float:none;
+	text-align:center;
 }
 .logo.pull-left a:hover { color:inherit; }
 .logo_h__txt a { color:#fd9029 !important; }
